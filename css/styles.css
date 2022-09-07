@@ -1,0 +1,212 @@
+body {
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+}
+
+.company-logo {
+  width: 200px;
+  margin-left: 5rem;
+}
+
+@media (max-width: 900px) {
+  .company-logo {
+    width: 150px;
+  }
+}
+
+.page-heading {
+  margin-top: 6.25rem;
+  margin-left: 12.5rem;
+}
+
+.title-links {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #01415d;
+}
+
+.title-links:hover {
+  color: #00a487;
+}
+
+.navbar {
+  margin-top: 5rem;
+  background-color: #fff;
+
+}
+
+.image-section {
+  color: #01415d;
+  text-align: center;
+  padding-top: 20px
+}
+
+.image-container {
+  position: relative;
+}
+
+.children-image{
+  max-width: 100%;
+}
+.image-content{
+position: absolute; /* Position the background text */
+ bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+ background: rgb(0, 0, 0); /* Fallback color */
+ background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+ color: #f1f1f1; /* Grey text */
+ width:100%; /* Full width */
+ padding: 20px; /* Some padding */
+ font-size: 1.15rem;
+
+}
+
+@media(max-width:900px) {
+  .image-content{
+  position: relative;
+  font-size: 1rem;
+
+  }
+}
+.about-us-section {
+  background-color: #E4DCCF;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about-us-heading {
+  text-align: left;
+  padding-left: 70px;
+  padding-top: 100px;
+  color: #01415d
+}
+
+.about-us-text {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 70px;
+  line-height: 1.5;
+  padding-right: 20px;
+  color: #01415d;
+  font-size: 1rem;
+  font-family: 'Ubuntu';
+}
+
+.statement-button {
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+}
+
+.btn-statement-text {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  background-color: #01415d;
+  color: #fff;
+}
+
+.achieve-section {
+  background-color: #CDF0EA;
+  color: #01415d;
+}
+
+.aim-heading {
+  text-align: center;
+  color: #01415d;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.feature-title {
+  padding-top: 2.5rem;
+  text-align: left;
+}
+
+.contact-us-section {
+  background-color: #fff;
+  color: #01415d;
+}
+
+.contact-us-heading {
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.contact-us-icon {
+  text-align: center;
+}
+
+.contact-us-text {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.contact-us-text2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-section {
+  text-align: center;
+}
+
+.accomodation-text {
+  padding-top: 3rem;
+}
+
+.image-container-contact{
+  position: absolute;
+}
+.contact-us-form{
+  position: relative;
+  z-index: 1;
+top: 900px;
+  background-color: #fff;
+  padding-left: 50px;
+  color: #01415d;
+}
+.footer-section-contact{
+  top: 500px;
+  text-align: center;
+  position: absolute;
+  left: 30%;
+}
+
+
+@media(max-width:900px) {
+  .contact-us-form{
+  top: 300px;
+    }
+
+    .footer-section-contact{
+      top: 900px;
+      left: 15%;
+    }
+}
+
+
+.image-container-additional-services {
+  position: relative;
+  top: 10px;
+}
+
+.consultant-image{
+  max-width: 100%;
+}
+.consultant-content{
+position: relative; /* Position the background text */
+ bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+ background: rgb(0, 0, 0); /* Fallback color */
+ background: #CDF0EA; /* Black background with 0.5 opacity */
+ color: #01415d; /* Grey text */
+ width:100%; /* Full width */
+ padding: 20px; /* Some padding */
+ font-size: 1.15rem;
+
+}
